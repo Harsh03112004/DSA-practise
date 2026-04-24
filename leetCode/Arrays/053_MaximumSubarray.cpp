@@ -1,4 +1,5 @@
-// Maximum Subarray - Kadane's Algorithm - O(n)
+// Subarray matlab continuous part.
+// Subsequence matlab beech me kuch elements skip kar sakte ho.
 class Solution {
 public:
     int maxSubArray(vector<int>& nums) {
