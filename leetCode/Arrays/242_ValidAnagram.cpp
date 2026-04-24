@@ -1,9 +1,15 @@
-// Valid Anagram - Sorting - O(n log n)
+// anagram = Anagram matlab dono strings me same letters hone chahiye, same frequency ke saath, bas order different ho sakta hai.
 class Solution {
 public:
     bool isAnagram(string s, string t) {
-        sort(s.begin(),s.end());
-        sort(t.begin(),t.end());
-        return s==t;
+        
+        sort(s.begin() , s.end());
+        sort(t.begin() ,t.end());
+        if(s == t){
+            return true;
+           }
+        else{
+           return false;
+           }
     }
 };
